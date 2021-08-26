@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 1800px;
+}
+
+.card {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #271a58;
+}
+.content {
+    padding: 100px 0 190px;
+}
+.logo {
+  width: 29px;
+  height: 20px;
+}
+.text {
+  font-family: StratosSkyeng;
+  font-weight: 400;
+  letter-spacing: -0.91px;
+  color: #fff;
+}
+.title {
+  font-size: 64px;
+  line-height: 58.56px;
+  width: 640px;
+}
+.name {
+  font-size: 30px;
+  line-height: 27.45px;
+  width: 575px;
+}
+.logo,
+.title {
+  margin-bottom: 40px;
+}
