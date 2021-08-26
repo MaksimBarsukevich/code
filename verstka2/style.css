@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 1440px;
+  font-family: StratosSkyeng;
+}
+.main-content {
+  padding: 0 145px;
+}
+.title {
+  padding: 0 460px 30px 140px;
+  min-width: 860px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: -0.5px;
+}
+.first {
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mark {
+  padding: 15px;
+}
+.box {
+  width: 44px;
+  height: 44px;
+  border: 1px black solid;
+  border-radius: 50%;
+}
+.benefits {
+  max-width: 390px;
+}
+.content-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.1px;
+}
+.benefit-content {
+  margin: 25px 25px;
+  max-width: 390px;
+}
+.list {
+  list-style-type: none;
+}
+.listitem {
+  display: flex;
+  align-items: center;
+}
+.card {
+  background: #acc3ff;
+  width: min-content;
+  height: min-content;
+  border-radius: 16px;
+}
+.card-wrapper {
+  width: 387px;
+  margin: 19px 29px 24px 24px;
+}
+.arrows {
+  padding-bottom: 10px;
+}
+.student {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+}
+.link-box {
+  display: flex;
+  flex-flow: column wrap;
+  padding-left: 16px;
+}
+.name,
+.link-text {
+  color: #fff;
+  text-decoration: none;
+}
+.link-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.05px;
+}
